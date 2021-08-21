@@ -1,0 +1,93 @@
+.btn-dng {
+  background-color: #AB2A0E;
+  color: white;
+}
+
+.btn-dng:hover {
+  background-color: #A4290E;
+}
+
+.text-wrn {
+  color: black;
+}
+
+.btn-wrn {
+  background-color: #EDED50;
+  color: black;
+}
+
+.btn-wrn:hover {
+  background-color: #D5D545;
+}
+
+.btn-scs {
+  background-color: #727cf5;
+  color: white;
+}
+
+.btn-scs:hover {
+  background-color: #717AF0;
+}
+
+.btn-scr {
+  background-color: #9CA0A4;
+  color: white;
+}
+
+.btn-scr:hover {
+  background-color: #7E8083;
+}
+
+#mensaje_success .modal-header {
+  background-color: #727cf5;
+  color: white;
+}
+
+.success-i {
+  color: #727cf5;
+  font-size: 7.5rem;
+}
+
+.danger-i,
+.warning-i {
+  font-size: 7.5rem;
+}
+
+.peek-a-bar {
+  padding: 1.5em;
+  opacity: 0.85;
+  top: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  z-index: 100000;
+}
+
+.peek-a-bar.success {
+  background-color: #26bd80 !important;
+}
+
+.peek-a-bar.warning {
+  background-color: #ff7043 !important;
+}
+
+.peek-a-bar.danger {
+  background-color: #ff5252 !important;
+}
+
+/*responsive*/
+@media screen and (max-width: 991px) {
+  p {
+    font-size: 0.75rem;
+  }
+
+  h3, .h3 {
+    font-size: 1.3rem;
+  }
+}

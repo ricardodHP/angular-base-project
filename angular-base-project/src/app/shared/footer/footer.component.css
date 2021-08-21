@@ -1,0 +1,230 @@
+footer {
+  height: 65px;
+  background: white;
+  /* background: #f2edf3; */
+  border-top: 1px solid #fff;
+  padding: 12px 5rem;
+  box-shadow: 15px 2px 10px 0 #EEEEEE;
+  font-size: calc(0.875rem - 0.05rem);
+}
+
+.toasty-container{
+  position: fixed;
+  right: -160px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.support-container {
+  position: fixed;
+  right: 30px;
+  bottom: 28px;
+  z-index: -1;
+}
+
+.speech-bubble {
+  width: 260px;
+  position: fixed;
+  right: 130px;
+  bottom: 100px;
+  background: #f5f5f5;
+  border-radius: .4em;
+  text-align: center;
+  color: #9E9E9E;
+  font-weight: bold;
+  font-size: 90%;
+  box-shadow: 0 1px 5px 0 rgba(158, 158, 158, 0.57);
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 21px solid transparent;
+  border-left-color: #f5f5f5;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -10.5px;
+  margin-right: -21px;
+}
+
+
+/*boton flotante*/
+
+.float-btn {
+  font-size: 1rem;
+  width: 50px;
+  height: 50px;
+  z-index: 10000;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12)
+}
+
+
+.float-sub-btn {
+  font-size: 1rem;
+  width: 40px;
+  height: 40px;
+  z-index: 10000;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  padding: 9px;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12)
+}
+
+
+.pmd-floating-action {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000
+}
+
+.menu--floating--open .pmd-floating-action-btn,
+.pmd-floating-action:hover .pmd-floating-action-btn {
+  position: relative;
+  bottom: auto;
+  overflow: hidden;
+  opacity: 1;
+  -ms-transform: none;
+  transform: none
+}
+
+
+.pmd-floating-action-btn {
+  position: relative;
+  display: block;
+  transition: all .3s cubic-bezier(.55, 0, .1, 1)
+}
+
+.pmd-floating-action-btn:before {
+  position: absolute;
+  display: inline-block;
+  padding: .375rem .75rem;
+  margin-right: .3125rem;
+  font-size: .75rem;
+  color: rgba(0, 0, 0, .87);
+  white-space: nowrap;
+  content: attr(data-title);
+  background-color: #fff;
+  border-radius: .125rem;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  opacity: 0;
+  transition: all .2s ease-in-out
+}
+
+.pmd-floating-action-btn:last-child:before {
+  bottom: 25%;
+  font-size: 14px
+}
+
+.pmd-floating-action-btn:active,
+.pmd-floating-action-btn:focus,
+.pmd-floating-action-btn:hover {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12)
+}
+
+.pmd-floating-action-btn:not(:last-child) {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: .9375rem;
+  margin-left: .5rem;
+  opacity: 0;
+  -ms-transform: translateY(20px) scale(.3);
+  transform: translateY(20px) scale(.3)
+}
+
+.pmd-floating-action-btn:not(:last-child):nth-last-child(1) {
+  transition-delay: 50ms
+}
+
+.pmd-floating-action-btn:not(:last-child):nth-last-child(2) {
+  transition-delay: .1s
+}
+
+.pmd-floating-action-btn:not(:last-child):nth-last-child(3) {
+  transition-delay: 150ms
+}
+
+.pmd-floating-action-btn:not(:last-child):nth-last-child(4) {
+  transition-delay: .2s
+}
+
+.pmd-floating-action-btn:not(:last-child):nth-last-child(5) {
+  transition-delay: 250ms
+}
+
+.pmd-floating-action-btn:not(:last-child):nth-last-child(6) {
+  transition-delay: .3s
+}
+
+.pmd-floating-action-btn.btn:hover {
+  overflow: visible
+}
+
+.pmd-floating-action-btn .ink {
+  width: 50px;
+  height: 50px
+}
+
+.pmd-floating-hidden {
+  display: none
+}
+
+.floating-action-custom .pmd-floating-action {
+  position: relative;
+  width: 55px;
+  margin: 0 auto
+}
+
+.pmd-floating-action {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000
+}
+
+/*//////////////////////////////////*/
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff !important;
+  border-color: #007bff;
+}
+
+.pmd-floating-hidden {
+  display: none
+}
+
+/*responsive*/
+@media screen and (max-width: 991px) {
+  footer {
+    display: none;
+  }
+
+  #actions {
+    display: block;
+  }
+
+  .support-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #actions {
+    display: none;
+  }
+
+  .support-container {
+    display: block;
+  }
+}
+

@@ -1,0 +1,42 @@
+<nav class="sidebar sidebar-offcanvas" id="sidebar" style="margin-top: 60px">
+  <ul class="nav">
+    <li class="nav-profile text-center pt-3">
+      <a class="nav-link">
+        <div class="nav-profile-image">
+        </div>
+        <div class="nav-profile-text d-flex flex-column">
+          <span class="mb-2">Hola <strong></strong></span>
+        </div>
+      </a>
+    </li>
+
+    <li class="nav-item" id="profile-item">
+      <a class="nav-link" href="#" [routerLink]="['configuraciones/profile']">
+        <span class="menu-title">Mi perfil</span>
+        <i class="mdi mdi-account-circle menu-icon"></i>
+      </a>
+    </li>
+
+
+    <li class="nav-item">
+      <a class="nav-link" href="#" [routerLink]="['/configuraciones/pago-clientes']">
+        <span class="menu-title">Menu 1</span>
+        <i class="mdi mdi-inbox-arrow-up menu-icon"></i>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="javascript:void(0);" data-toggle="modal" data-target="#modal-support">
+        <span class="menu-title">Soporte</span>
+        <i class="mdi mdi-message-outline menu-icon"></i>
+      </a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link" href="javascript:void(0);">
+        <span class="menu-title">Salir</span>
+        <i class="mdi mdi-exit-to-app menu-icon"></i>
+      </a>
+    </li>
+  </ul>
+</nav>

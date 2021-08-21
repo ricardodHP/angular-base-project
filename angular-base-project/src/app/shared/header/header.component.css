@@ -1,0 +1,92 @@
+.navbar .navbar-brand-wrapper {
+  transition: width 0.25s ease, background 0.25s ease;
+  -webkit-transition: width 0.25s ease, background 0.25s ease;
+  -moz-transition: width 0.25s ease, background 0.25s ease;
+  -ms-transition: width 0.25s ease, background 0.25s ease;
+  background: #fff;
+  height: 60px !important;
+}
+
+.text-success {
+  color: #1bcfb4 !important;
+}
+
+.text-primary, .list-wrapper .completed .remove {
+  color: #b66dff !important;
+}
+
+.mr-2, .template-demo > .btn-group, .template-demo > .btn-group-vertical, .template-demo > .dropdown, .mx-2 {
+  margin-right: 0.5rem !important;
+}
+
+.input-group-search {
+  margin: 0px;
+}
+
+.config {
+  position: relative;
+  top: -15px;
+}
+
+.input-group-config {
+  margin-bottom: 0px !important;
+}
+
+.input-group-config button {
+  height: 70px;
+  min-width: 200px;
+  color: #666;
+  float: left;
+}
+
+.input-group-config .correo {
+  float: left;
+}
+
+.input-group-config .perfil {
+  font-size: 0.8em;
+  float: left;
+  color: #999;
+}
+
+.input-group-config img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  float: left;
+}
+
+.input-group-config .dropdown-item {
+  cursor: auto;
+  color: #666;
+}
+
+.input-group-config .dropdown-toggle::after {
+  content: none;
+}
+
+.navbar .form-inline {
+  width: 100%;
+}
+
+nav {
+  height: 65px;
+  -webkit-box-shadow: 0 2px 5px 0 rgb(158, 158, 158);
+  box-shadow: 0 1px 5px 0 rgb(158, 158, 158);
+}
+
+@media (max-width: 1000px) {
+  .input-group-search {
+    display: none;
+  }
+
+  .input-group-config {
+    width: 100%;
+  }
+}
+
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile .nav-link .nav-profile-text {
+  margin-left: 0;
+}
+
+
